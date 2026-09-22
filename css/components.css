@@ -1,0 +1,45 @@
+/* components.css — small reusable pieces */
+.badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: var(--off-white);
+    color: var(--navy);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.stat-row { display: flex; gap: 40px; flex-wrap: wrap; }
+.stat { }
+.stat strong { display: block; font-size: 2rem; color: var(--emergency); font-family: var(--font-head); }
+.stat span { color: var(--text-muted); font-size: 0.9rem; }
+
+.tag-list { display: flex; flex-wrap: wrap; gap: 10px; }
+.tag-list li {
+    background: var(--off-white);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--navy);
+}
+
+.audience-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.audience-grid .card { padding: 20px 24px; }
+
+.split-panel { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.split-panel > div { padding: 36px; }
+.split-panel > div:first-child { background: var(--off-white); }
+
+.process-flow-vertical { display: flex; flex-direction: column; gap: 0; max-width: 520px; margin-inline: auto; }
+.process-flow-vertical li {
+    position: relative; padding: 18px 0 18px 44px; border-left: 2px solid var(--border); margin-left: 17px;
+}
+.process-flow-vertical li::before {
+    content: ""; position: absolute; left: -9px; top: 20px; width: 16px; height: 16px; border-radius: 50%;
+    background: var(--emergency); border: 3px solid var(--white); box-shadow: 0 0 0 2px var(--emergency);
+}
+.process-flow-vertical li:last-child { border-color: transparent; }

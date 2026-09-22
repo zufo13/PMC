@@ -1,0 +1,1 @@
+Placeholder folder. Pages currently use stock-style placeholder images (picsum.photos) referenced directly by URL. Add PMC Restoration's real photos here and update image references in the HTML when available.

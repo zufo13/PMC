@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pmcrestoration.com/sitemap.xml

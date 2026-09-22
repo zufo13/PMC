@@ -93,7 +93,7 @@ p { color: var(--text-muted); }
 .logo-text { font-size: 1.15rem; color: var(--navy); }
 .site-logo { height: 56px; width: auto; }
 .main-nav { margin-inline: auto; }
-.main-nav ul { display: flex; gap: 22px; align-items: center; }
+.main-nav > ul { display: flex; gap: 22px; align-items: center; }
 .main-nav a { font-weight: 600; padding: 6px 2px; }
 .main-nav a[aria-current="page"] { color: var(--emergency); }
 .has-submenu { position: relative; }

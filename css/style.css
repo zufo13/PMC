@@ -102,7 +102,7 @@ p { color: var(--text-muted); }
     background: var(--white); box-shadow: var(--shadow); border-radius: var(--radius);
     padding: 8px; display: none; flex-direction: column; gap: 2px;
 }
-.has-submenu:hover .submenu, .has-submenu:focus-within .submenu { display: flex; }
+.has-submenu:hover .submenu, .has-submenu:focus-within .submenu, .has-submenu.open .submenu { display: flex; }
 .submenu a { padding: 8px 12px; border-radius: 4px; font-weight: 500; display: block; }
 .submenu a:hover { background: var(--off-white); }
 .btn-emergency {

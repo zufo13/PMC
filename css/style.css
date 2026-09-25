@@ -194,6 +194,7 @@ section { padding-block: 72px; }
 
 /* Forms */
 .contact-form { display: grid; gap: 18px; }
+.form-note { font-size: 0.85rem; color: var(--gray-600, #666); margin: -6px 0 0; }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
 .field label { display: block; font-weight: 600; margin-bottom: 6px; font-size: 0.9rem; color: var(--navy); }
 .field input, .field select, .field textarea {

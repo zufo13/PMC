@@ -1,4 +1,4 @@
-// forms.js — basic client-side validation, no backend wired up yet
+// forms.js — client-side validation; the form itself posts to /api/contact
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('.contact-form');
     if (!form) return;
@@ -12,6 +12,5 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
             alert('Please fill in all required fields before submitting.');
         }
-        // TODO: wire up to real form handler / CRM endpoint.
     });
 });

@@ -112,6 +112,7 @@ p { color: var(--text-muted); }
 }
 .btn-emergency-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; }
 .btn-emergency-phone { font-size: 1rem; font-weight: 700; }
+.cert-badge { height: 48px; width: auto; flex-shrink: 0; }
 .nav-toggle { display: none; flex-direction: column; gap: 4px; padding: 8px; }
 .nav-toggle span { width: 24px; height: 2px; background: var(--navy); display: block; }
 .mobile-call-bar { display: none; }
